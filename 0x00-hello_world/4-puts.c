@@ -1,6 +1,5 @@
-int main (void)
+int main()
 {
-	char str[] = "Programming is like building a multilingual puzzle";
-	put(str);
+	put("Programming is like building a multilingual puzzle");
 	return 0;
 }	
