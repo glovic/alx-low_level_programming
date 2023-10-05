@@ -3,8 +3,8 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function is the entry point of the program. It prints
- *              the specified message to the standard error.
+ * Description: This function is the entry point of the program. It prints the
+ * specified message to the standard error.
  *
  * Return: Always 1 (error)
  */
