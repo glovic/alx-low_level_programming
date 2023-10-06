@@ -13,8 +13,8 @@
 int main(void)
 {
        	int n;
-	srand(time(0)); // Seed the random number generator
-	n = rand() - RAND_MAX / 2; // Generate a random number
+	srand(time(0)); /* Seed the random number generator*/
+	n = rand() - RAND_MAX / 2; /* Generate a random number*/
 	printf("The number %d is ", n);
 	if (n > 0) {
 		printf("positive");
@@ -23,6 +23,6 @@ int main(void)
 	} else {
 		printf("negative");
 	}
-	printf("\n"); // Print a newline
+	printf("\n"); /* Print a newline*/
 	return (0);
 }
