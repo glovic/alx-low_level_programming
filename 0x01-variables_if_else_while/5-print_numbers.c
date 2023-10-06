@@ -10,19 +10,8 @@
  */
 int main(void)
 {
-	char letter = 'a';
-
-	while (letter <= 'z')
+	for (i = 0; i <= 9; i++)
 	{
-		if (letter != 'q' && letter != 'e')
-		{
-			putchar(letter);
-		}
-
-		letter++;
+		printf("%d, i);
 	}
-
-	putchar('\n');
-
-	return (0);
 }
