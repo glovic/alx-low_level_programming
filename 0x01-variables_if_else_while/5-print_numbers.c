@@ -3,18 +3,19 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function prints the alphabet in lowercase,
- *              followed by the alphabet in uppercase, and then a new line.
- *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	int i = 0;
+	int digit = 0;
 
-	while (i <= 9)
+	while (digit <= 9)
 	{
-		printf("%d", i);
-		i++;
+		putchar(digit + 0);
+		letter++;
 	}
+
+	putchar('\n');
+
+	return (0);
 }
