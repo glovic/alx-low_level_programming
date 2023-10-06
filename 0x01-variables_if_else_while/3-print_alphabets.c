@@ -8,23 +8,27 @@
  *
  * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
-	char letter = 'a';
+	char lower = 'a';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	char upper = 'A';
+
+	while (lower <= 'z')
 	{
-		putchar(letter);
+		putchar(lower);
+		lower++;
 	}
 
-	char letter ='A';
+	putchar('\n');
 
-	for (letter ='z'; letter <= 'Z'; letter++)
+	while (upper <= 'A')
 	{
-		putchar(letter);
+		putchar(upper);
+		upper++;
 	}
 
-	putchar("\n");
+	putchar('\n);
 
 	return (0);
 }
