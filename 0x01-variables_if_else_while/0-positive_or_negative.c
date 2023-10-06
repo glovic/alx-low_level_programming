@@ -12,19 +12,24 @@
  */
 int main(void)
 {
-       	int n;
-	srand(time(0)); /* Seed the random number generator*/
-	n = rand() - RAND_MAX / 2; /* Generate a random number*/
+	int n;
+	srand(time(0)); /* Seed the random number generator */
+	n = rand() - RAND_MAX / 2; /* Generate a random number */
 	printf("%d is ", n);
-	if (n > 0) 
+
+	if (n > 0)
 	{
 		printf("positive");
-	} else if (n == 0) 
+	}
+	else if (n == 0)
 	{
 		printf("zero");
-	} else {
+	}
+	else
+	{
 		printf("negative");
 	}
-	printf("\n"); /* Print a newline*/
+
+	printf("\n"); /* Print a newline */
 	return (0);
 }
