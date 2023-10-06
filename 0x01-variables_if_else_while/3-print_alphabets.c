@@ -18,13 +18,13 @@ int main(void)
 		letter++;
 	}
 	letter = 'A';
-	
+
 	while (letter <= 'Z')
 	{
 		putchar(letter);
 		letter++;
 	}
-	
+
 	putchar('\n');
 
 	return (0);
