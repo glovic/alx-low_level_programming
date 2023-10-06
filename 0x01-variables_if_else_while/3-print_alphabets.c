@@ -12,11 +12,17 @@ int main(void)
 {
         char letter = 'a';
 
-        while (letter <= 'z' || letter <= 'Z')
+        while (letter <= 'z')
         {
                 putchar(letter);
-                if (letter == 'z')
-                        letter = 'A' - 1; /* Reset to 'A' if we've reached 'z'*/
+                letter++;
+        }
+
+        letter = 'A';
+
+        while (letter <= 'Z')
+        {
+                putchar(letter);
                 letter++;
         }
 
