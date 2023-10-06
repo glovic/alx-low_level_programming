@@ -10,25 +10,17 @@
  */
 int main(void)
 {
-	char lower = 'a';
+        char letter = 'a';
 
-	char upper = 'A';
+        while (letter <= 'z' || letter <= 'Z')
+        {
+                putchar(letter);
+                if (letter == 'z')
+                        letter = 'A' - 1; // Reset to 'A' if we've reached 'z'
+                letter++;
+        }
 
-	while (lower <= 'z')
-	{
-		putchar(lower);
-		lower++;
-	}
+        putchar('\n');
 
-	putchar('\n');
-
-	while (upper <= 'A')
-	{
-		putchar(upper);
-		upper++;
-	}
-
-	putchar('\n');
-
-	return (0);
+        return (0);
 }
