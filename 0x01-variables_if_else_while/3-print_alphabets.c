@@ -16,7 +16,7 @@ int main(void)
         {
                 putchar(letter);
                 if (letter == 'z')
-                        letter = 'A' - 1; // Reset to 'A' if we've reached 'z'
+                        letter = 'A' - 1; /* Reset to 'A' if we've reached 'z'*/
                 letter++;
         }
 
