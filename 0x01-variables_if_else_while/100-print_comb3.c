@@ -18,12 +18,12 @@ int main(void)
 			putchar((digitone % 10) + '0');
 			putchar((digittwo % 10) + '0');
 
-			if (digitone != 8 && digittwo != 9)
+			if (digitone == 8 && digittwo == 9)
 				continue;
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			
+			putchar(',');
+			putchar(' ');
+
 		}
 	}
 
