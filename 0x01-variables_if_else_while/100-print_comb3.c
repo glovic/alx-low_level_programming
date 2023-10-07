@@ -10,14 +10,15 @@ int main(void)
 	int digitone;
 	int digittwo;
 
-	for (digitone = 0; digittwo <= 8; digitone++)
+	for (digitone = 0; digittwo <= 9; digitone++)
 	{
 		for (digittwo = digitone + 1; digittwo <= 9; digittwo++)
 		{
+
 			putchar(digitone + '0');
 			putchar(digittwo + '0');
 
-			/*if (digitone != 8 || digittwo != 9)*/
+			if (! (digitone != 8 && digittwo != 9))
 			{
 				putchar(',');
 				putchar(' ');
