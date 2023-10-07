@@ -7,12 +7,11 @@
  */
 int main(void)
 {
-	int digitone;
-	int digittwo;
+	int digitone, digittwo;
 
-	for (digitone = 0; digittwo < 9; digitone++)
+	for (digitone = 0; digitone < 9; digitone++)
 	{
-		for (digittwo = digitone + 1; digittwo <= 10; digittwo++)
+		for (digittwo = digitone + 1; digittwo < 10; digittwo++)
 		{
 
 			putchar((digitone % 10) + '0');
