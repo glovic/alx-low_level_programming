@@ -17,7 +17,7 @@ int main(void)
 			putchar(digitone + '0');
 			putchar(digittwo + '0');
 
-			if (digitone != 8 ||digittwo !=9)
+			if (digitone != 8 || digittwo !=9)
 			{
 				putchar(',');
 				putchar(' ');
