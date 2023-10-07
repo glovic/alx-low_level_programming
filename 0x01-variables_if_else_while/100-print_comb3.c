@@ -19,7 +19,7 @@ int main(void)
 
 			if (digitone == 8 && digittwo == 9)
 				continue;
-			
+
 			putchar(',');
 			putchar(' ');
 
