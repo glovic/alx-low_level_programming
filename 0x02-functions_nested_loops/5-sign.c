@@ -15,7 +15,7 @@ int print_sign(int n)
 	{
 		case 0:
 			_putchar('0');
-			return ('0);
+			return (0);
 		case 1:
 			_putchar('+');
 			return (1);
