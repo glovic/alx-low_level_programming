@@ -13,12 +13,12 @@ int print_sign(int n)
 {
 	switch (n)
 	{
-		case 0:
-			_putchar('0');
-			return (0);
 		case 1:
 			_putchar('+');
 			return (1);
+		case 0:
+			_putchar('0');
+			return (0);
 		default:
 			_putchar('-');
 			return (-1);
