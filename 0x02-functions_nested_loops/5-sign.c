@@ -9,7 +9,7 @@
  */
 int print_sign(int n)
 {
-	swtich(n)
+	switch(n)
 	{
 		case '0':
 			_putchar('0');
