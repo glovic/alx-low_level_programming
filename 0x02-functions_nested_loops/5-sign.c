@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_sign - Prints the sign of a number.
  *
@@ -9,16 +11,16 @@
  */
 int print_sign(int n)
 {
-	switch(n)
+	switch (n)
 	{
-		case '0':
-			_putchar('0');
-			return (0);
-		case '1':
-			_putchar('+');
+		case 0:
+			-putchar('0');
+			return ('0);
+		case 1:
+			-putchar('+');
 			return (1);
 		default:
-			_putchar('-);
+			putchar('-');
 			return (-1);
 	}
 }
