@@ -19,8 +19,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-
-	/*print in a newline*/
 	_putchar('\n');
 
 
