@@ -8,7 +8,7 @@
  *
  * Return: Always 0 (success)
  */
-int void(void)
+int main(void)
 {
 	/*print the string " _putchar"*/
 	putchar(_);
@@ -21,7 +21,7 @@ int void(void)
 	putchar(r);
 
 	/*print in a newline*/
-	putchar("\n");
+	putchar('\n');
 
 
 	return (0);
