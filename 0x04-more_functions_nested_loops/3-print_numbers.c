@@ -5,13 +5,12 @@
  */
 void print_numbers(void)
 {
-	int num;
-	
-	for (num = 0; num <= 9; num++)
+	char digit;
+
+	for (digit = 0; digit <= 9; digit++)
 	{
-		_putchar((num % 10) + '0');
+		_putchar((digit % 10) + '0');
 	}
-	
+
 	_putchar('\n');
 }
-
