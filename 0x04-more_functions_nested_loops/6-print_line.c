@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- * more_numbers - Prints the numbers 0 to 14 ten times.
+ * print_line - Prints a horizontal line composed of underscore characters.
+ * @n: The number of underscore characters to be printed.
  */
-void more_numbers(void)
+void print_line(int n)
 {
-	int digit, count;
+	int line;
 
-	for (count = 0; count <= 9; count++)
+	if (n > 0)
 	{
-		for (digit = 0; digit <= 14; digit++)
-		{
-			if (digit > 9)
-				_putchar((digit / 10) + '0');
-			_putchar((digit % 10) + '0');
-		}
-		_putchar('\n');
+		for (line = 0; line < n; line++)
+			_putchar('_');
 	}
+
+	_putchar('\n');
 }
