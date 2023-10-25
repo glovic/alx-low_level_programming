@@ -24,7 +24,7 @@ int str_length(char *s)
 }
 
 /**
- * is_str_palindrome - Check if a string is a palindrome.
+ * is_palindrome - Check if a string is a palindrome.
  * @s: The input string.
  *
  * Return: 1 if it's a palindrome, 0 if not.
