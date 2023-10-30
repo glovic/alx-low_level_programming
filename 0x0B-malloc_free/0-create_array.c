@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - Prints the addition of positive numbers.
- * @argc: Number of arguments passed to the program.
- * @argv: Array of argument pointers.
+ * create_array - Create and initialize an array of characters.
+ * @size: Size of the array to create.
+ * @c: Char to initialize the array with.
  *
- * Return: 0 on success, 1 if there are non-digit symbols.
+ * Return: A pointer to the array, or NULL on failure.
  */
 char *create_array(unsigned int size, char c)
 {
