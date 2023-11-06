@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-/*
- * main - Prints the name of the file of the program
- *	was comiled from, followed by a new line.
+/**
+ * main - Prints the source file name, followed by a new line.
  *
- *	Return: Sucess (0).
+ * Return: Always 0.
  */
 int main(void)
 {
