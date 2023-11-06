@@ -3,7 +3,7 @@
 
 /*
  * Desc: Header file that defines a macro named
- * 	SIZE as a abbreviation for the token 1024.
+ *	SIZE as a abbreviation for the token 1024.
  *
  */
 
