@@ -15,6 +15,7 @@ void print_all(const char * const format, ...);
 void print_char(va_list arg)
 {
 	char letter;
+
 	letter = va_arg(arg, int);
 	printf("%c", letter);
 }
@@ -55,7 +56,7 @@ void print_string(va_list arg)
 
 	str = va_arg(arg, char *);
 
-	if (str ==NULL)
+	if (str == NULL)
 	{
 		printf("(nil)");
 		return;
