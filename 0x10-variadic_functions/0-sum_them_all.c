@@ -16,10 +16,8 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(digits, n);
 
-	{
 		for (idx = 0; idx < n; idx++)
 			sum += va_arg(digits, int);
-	}
 
 	va_end(digits);
 
