@@ -11,8 +11,9 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
+	unsigned int idx; 
+	int sum = 0;
 	va_list digits;
-	unsigned int idx, sum = 0;
 
 	va_start(digits, n);
 
