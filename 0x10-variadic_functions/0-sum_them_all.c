@@ -11,7 +11,7 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int idx; 
+	unsigned int idx;
 	int sum = 0;
 	va_list digits;
 
@@ -19,9 +19,10 @@ int sum_them_all(const unsigned int n, ...)
 
 	if (n != 0)
 	{
-	for (idx = 0; idx < n; idx++)
-		sum += va_arg(digits, int);
+		for (idx = 0; idx < n; idx++)
+			sum += va_arg(digits, unsigned int);
 	}
+
 	va_end(digits);
 
 	return (sum);
