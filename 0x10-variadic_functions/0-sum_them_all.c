@@ -7,22 +7,19 @@
  * @...: A variable number of paramters to calculate the sum of.
  *
  * Return: if n == 0 - 0.
- *	Otherwise - sum of all parameters.
+ *      Otherwise - sum of all parameters.
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int idx;
-	int sum = 0;
-	va_list digits;
+	va_list nums;
+	unsigned int index, sum = 0;
 
-	va_start(digits, n);
+	va_start(nums, n);
 
-	if (n != 0)
-	{
-		for (idx = 0; idx < n; sum += va_arg(digits, unsigned int),  idx++);
-	}
+	for (index = 0; index < n; index++)
+		sum += va_arg(nums, int);
 
-	va_end(digits);
+	va_end(nums);
 
 	return (sum);
 }
