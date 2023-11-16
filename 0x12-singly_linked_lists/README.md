@@ -1,0 +1,1 @@
+This repository contains the implementation of singly linked lists in C. Singly linked lists are a fundamental data structure that consists of a sequence of nodes, where each node contains a value and a pointer to the next node in the sequence
