@@ -1,0 +1,1 @@
+This repository contains a collection of tasks and exercises on file input and output (I/O) operations in C programming. File I/O is a fundamental aspect of programming, enabling you to read data from files and write data to them.
